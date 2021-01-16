@@ -1,11 +1,12 @@
 body {
     background-color: white;
 }
-
 .text h2 {
+    color: #0000b3;
     font-family: 'Righteous';
     letter-spacing: 0.1em;
     margin-top: 200px;
+    
 }
 
 span {
@@ -15,7 +16,7 @@ span {
 
 .text {
     color: #0000b3;
-    font-size: 190%;
+    font-size: 240%;
     margin-top: 10px;
     margin-left: 40px;
 }
@@ -196,12 +197,12 @@ p {
 /*menu*/
 
 .menu-active {
-    display: flex;
+    display: flex !important;
 }
 
 .menu {
     position: fixed;
-    top: 0;
+    top: -5%;
     right: 0;
     width: 400px;
     height: 100%;
@@ -306,8 +307,8 @@ footer {
     background-color: #99cc00;
 }
 
-.center .content .text {
-    font-size: 1.0625rem;
+.center .content {
+
     font-weight: 500;
     padding-left: 10px;
     font-family: 'Josefin Sans';
@@ -320,6 +321,11 @@ footer {
 
 .center .content span {
     color: white;
+
+}
+
+.center {
+    font-weight: 50%;
 }
 
 /*right box*/
@@ -421,6 +427,9 @@ label {
     text-decoration: underline;
 }
 
+.map {
+    margin-top: 7px;
+}
 
 
 
